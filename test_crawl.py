@@ -26,6 +26,15 @@ class TestCrawl(unittest.TestCase):
         expected = "Main paragraph."
         self.assertEqual(actual, expected)
 
+    def get_urls_from_html(self):
+        input_body = """<html><body>
+            <a href="http://www.boot.dev/blog/path1">Link 1</a>
+            <a href="http://www.boot.dev/blog/path2">Link 2</a>
+        </body></html>"""
+        actual = get_urls_from_html(input_body)
+        expected = ["http://www.boot.dev/blog/path1", "http://www.boot.dev/blog/path2"]
+        self.assertEqual(actual, expected)
+
 
 if __name__ == "__main__":
     unittest.main()
