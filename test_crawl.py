@@ -1,5 +1,5 @@
 import unittest
-from crawl import normalize_url, get_heading_from_html, get_first_paragraph_from_html
+from crawl import normalize_url, get_heading_from_html, get_first_paragraph_from_html, get_urls_from_html, get_images_from_html
 
 class TestCrawl(unittest.TestCase):
     def test_normalize_url(self):
@@ -40,6 +40,20 @@ class TestCrawl(unittest.TestCase):
         input_body = '<html><body><img src="/logo.png" alt="Logo"></body></html>'
         actual = get_images_from_html(input_body, input_url)
         expected = ["https://crawler-test.com/logo.png"]
+        self.assertEqual(actual, expected)
+
+    def test_get_images_from_html_second(self):
+        input_url = "https://crawler-test.com"
+        input_body = '<html><body><img src="/second.png" alt="Second"></body></html>'
+        actual = get_images_from_html(input_body, input_url)
+        expected = ["https://crawler-test.com/second.png"]
+        self.assertEqual(actual, expected)
+
+    def test_get_images_from_html_third(self):
+        input_url = "https://crawler-test.com"
+        input_body = '<html><body><img src="/third.png" alt="Third"></body></html>'
+        actual = get_images_from_html(input_body, input_url)
+        expected = ["https://crawler-test.com/third.png"]
         self.assertEqual(actual, expected)
 
 
