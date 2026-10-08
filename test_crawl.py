@@ -30,9 +30,16 @@ class TestCrawl(unittest.TestCase):
         input_body = """<html><body>
             <a href="http://www.boot.dev/blog/path1">Link 1</a>
             <a href="http://www.boot.dev/blog/path2">Link 2</a>
-        </body></html>"""
+            </body></html>"""
         actual = get_urls_from_html(input_body)
         expected = ["http://www.boot.dev/blog/path1", "http://www.boot.dev/blog/path2"]
+        self.assertEqual(actual, expected)
+
+    def test_get_images_from_html_relative(self):
+        input_url = "https://crawler-test.com"
+        input_body = '<html><body><img src="/logo.png" alt="Logo"></body></html>'
+        actual = get_images_from_html(input_body, input_url)
+        expected = ["https://crawler-test.com/logo.png"]
         self.assertEqual(actual, expected)
 
 
