@@ -1,52 +1,85 @@
-from urllib.parse import urlsplit
-from bs4 import BeautifulSoup, Tag
-from urllib.parse import urljoin
+from typing import TypedDict
+from urllib.parse import urljoin, urlsplit
 
-def normalize_url(url):
+from bs4 import BeautifulSoup, Tag
+
+
+class PageData(TypedDict):
+    url: str
+    heading: str
+    first_paragraph: str
+    outgoing_links: list[str]
+    image_urls: list[str]
+
+
+def normalize_url(url: str) -> str:
     parsed_url = urlsplit(url)
-    return parsed_url.netloc + parsed_url.path
+    full_path = f"{parsed_url.netloc}{parsed_url.path}"
+    full_path = full_path.rstrip("/")
+    return full_path.lower()
 
 
 def get_heading_from_html(html: str) -> str:
     soup = BeautifulSoup(html, "html.parser")
-    h1_tag = soup.find('h1')
-    h2_tag = soup.find('h2')
-    if h1_tag and isinstance(h1_tag, Tag):
-        return h1_tag.get_text(strip=True)
-    elif h2_tag and isinstance(h2_tag, Tag):
-        return h2_tag.get_text(strip=True)
-    else:
-        return ""
-
-
+    h_tag = soup.find("h1") or soup.find("h2")
+    return h_tag.get_text(strip=True) if isinstance(h_tag, Tag) else ""
 
 
 def get_first_paragraph_from_html(html: str) -> str:
     soup = BeautifulSoup(html, "html.parser")
-    main_tag = soup.find('main')
-    if main_tag and isinstance(main_tag, Tag):
-        p_tag = main_tag.find('p')
-        if p_tag and isinstance(p_tag, Tag):
-            return p_tag.get_text(strip=True)
-    return ""
+
+    main_section = soup.find("main")
+    if isinstance(main_section, Tag):
+        first_p = main_section.find("p")
+    else:
+        first_p = soup.find("p")
+
+    return first_p.get_text(strip=True) if isinstance(first_p, Tag) else ""
 
 
-def get_urls_from_html(html, base_url):
+def get_urls_from_html(html: str, base_url: str) -> list[str]:
+    urls = []
     soup = BeautifulSoup(html, "html.parser")
-    extracted_links = []
-    anchors = soup.find_all('a')
-    links = [tag.get('href') for tag in anchors if tag.get('href')]
-    for link in links:
-        final_link = urljoin(base_url, link)
-        extracted_links.append(final_link)
-    return extracted_links
+    anchors = soup.find_all("a")
 
-def get_images_from_html(html, base_url):
+    for anchor in anchors:
+        if not isinstance(anchor, Tag):
+            continue
+        href = anchor.get("href")
+        if isinstance(href, str) and href:
+            try:
+                absolute_url = urljoin(base_url, href)
+                urls.append(absolute_url)
+            except Exception as e:
+                print(f"{str(e)}: {href}")
+
+    return urls
+
+
+def get_images_from_html(html: str, base_url: str) -> list[str]:
+    image_urls = []
     soup = BeautifulSoup(html, "html.parser")
-    extracted_images = []
-    img_tags = soup.find_all('img')
-    img_srcs = [tag.get('src') for tag in img_tags if tag.get('src')]
-    for src in img_srcs:
-        final_src = urljoin(base_url, src)
-        extracted_images.append(final_src)
-    return extracted_images
+    images = soup.find_all("img")
+
+    for img in images:
+        if not isinstance(img, Tag):
+            continue
+        src = img.get("src")
+        if isinstance(src, str) and src:
+            try:
+                absolute_url = urljoin(base_url, src)
+                image_urls.append(absolute_url)
+            except Exception as e:
+                print(f"{str(e)}: {src}")
+
+    return image_urls
+
+
+def extract_page_data(html: str, page_url: str) -> PageData:
+    return {
+        "url": page_url,
+        "heading": get_heading_from_html(html),
+        "first_paragraph": get_first_paragraph_from_html(html),
+        "outgoing_links": get_urls_from_html(html, page_url),
+        "image_urls": get_images_from_html(html, page_url),
+    }
