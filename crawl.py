@@ -83,3 +83,55 @@ def extract_page_data(html: str, page_url: str) -> PageData:
         "outgoing_links": get_urls_from_html(html, page_url),
         "image_urls": get_images_from_html(html, page_url),
     }
+
+
+def crawl_page(base_url, current_url = None, page_data = None):
+    if current_url is None:
+        current_url = base_url
+    if page_data is None:
+        page_data = {}
+
+    base_url_obj = urlsplit(base_url)
+    current_url_obj = urlsplit(current_url)
+    if current_url_obj.netloc != base_url_obj.netloc:
+        return page_data
+
+    normalized_url = normalize_url(current_url)
+    if normalized_url in page_data:
+        return page_data
+
+    html = safe_get_html(current_url)
+    if html is None:
+        return page_data
+
+    page_info = extract_page_data(html, current_url)
+    page_data[normalized_url] = page_info
+
+    next_urls = page_info["outgoing_links"]
+    for next_url in next_urls:
+        page_data = crawl_page(base_url, next_url, page_data)
+
+    return page_data
+
+
+def get_html(url: str) -> str:
+    try:
+        response = requests.get(url)
+    except Exception as e:
+        raise Exception(f"network error while fetching {url}: {e}")
+
+    if response.status_code > 399:
+        raise Exception(f"got HTTP error: {response.status_code} {response.reason}")
+
+    content_type = response.headers.get("content-type", "")
+    if "text/html" not in content_type:
+        raise Exception(f"got non-HTML response: {content_type}")
+
+    return response.text
+
+def safe_get_html(url):
+    try:
+        return get_html(url)
+    except Exception as e:
+        print(f"{e}")
+        return None
