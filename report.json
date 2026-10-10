@@ -1,0 +1,370 @@
+[
+  {
+    "url": "https://learnwebscraping.dev/practice/ecommerce/",
+    "heading": "Fantasy Ecommerce Catalog",
+    "first_paragraph": "Browse fantasy product listings, category pages, detail pages, prices, rarity, stock labels, and specifications.",
+    "outgoing_links": [
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/products/ashenfang-longsword-fan-1001/",
+      "https://learnwebscraping.dev/practice/ecommerce/products/kingshade-bastard-sword-fan-1002/",
+      "https://learnwebscraping.dev/practice/ecommerce/products/moonlit-tournament-blade-fan-1003/",
+      "https://learnwebscraping.dev/practice/ecommerce/products/garrison-oathblade-fan-1004/",
+      "https://learnwebscraping.dev/practice/ecommerce/products/verdant-duelist-saber-fan-1005/",
+      "https://learnwebscraping.dev/practice/ecommerce/products/sunspire-relic-blade-fan-1006/",
+      "https://learnwebscraping.dev/practice/ecommerce/products/starwell-apprentice-staff-fan-1101/",
+      "https://learnwebscraping.dev/practice/ecommerce/products/stormglass-channeling-staff-fan-1102/",
+      "https://learnwebscraping.dev/practice/ecommerce/products/mirelight-hex-staff-fan-1103/",
+      "https://learnwebscraping.dev/practice/ecommerce/products/dawnscribe-rune-staff-fan-1104/",
+      "https://learnwebscraping.dev/practice/ecommerce/products/frostvein-scepter-staff-fan-1105/",
+      "https://learnwebscraping.dev/practice/ecommerce/products/astral-observatory-grand-staff-fan-1106/",
+      "https://learnwebscraping.dev/practice/ecommerce/products/bastion-pike-chestplate-fan-1201/",
+      "https://learnwebscraping.dev/practice/ecommerce/products/lionwake-tournament-cuirass-fan-1202/",
+      "https://learnwebscraping.dev/practice/ecommerce/products/stonewarden-bulwark-plate-fan-1203/",
+      "https://learnwebscraping.dev/practice/ecommerce/products/dreadmarsh-graveguard-harness-fan-1204/",
+      "https://learnwebscraping.dev/practice/ecommerce/products/sunvault-defender-plate-fan-1205/",
+      "https://learnwebscraping.dev/practice/ecommerce/products/rookwatch-siege-plate-fan-1206/",
+      "https://learnwebscraping.dev/practice/ecommerce/products/whisperleaf-scout-cloak-fan-1301/",
+      "https://learnwebscraping.dev/practice/ecommerce/products/nightmarket-smuggler-cape-fan-1302/",
+      "https://learnwebscraping.dev/practice/ecommerce/products/starling-court-mantle-fan-1303/",
+      "https://learnwebscraping.dev/practice/ecommerce/products/gloomfen-veilcloak-fan-1304/",
+      "https://learnwebscraping.dev/practice/ecommerce/products/sunset-falcon-travel-cloak-fan-1305/",
+      "https://learnwebscraping.dev/practice/ecommerce/products/mistglass-infiltrator-wrap-fan-1306/",
+      "https://learnwebscraping.dev/practice/ecommerce/page/2/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/arcane-staves/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/chestplates/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/cloaks/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/enchanted-rings/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/longswords/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/mana-potions/",
+      "https://www.boot.dev"
+    ],
+    "image_urls": []
+  },
+  {
+    "url": "https://learnwebscraping.dev/practice/ecommerce/categories/",
+    "heading": "Fantasy Ecommerce Categories",
+    "first_paragraph": "Browse 6 categories and 36 product pages across the fantasy catalog.",
+    "outgoing_links": [
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/arcane-staves/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/chestplates/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/cloaks/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/enchanted-rings/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/longswords/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/mana-potions/",
+      "https://www.boot.dev"
+    ],
+    "image_urls": []
+  },
+  {
+    "url": "https://learnwebscraping.dev/practice/ecommerce/products/ashenfang-longsword-fan-1001/",
+    "heading": "Ashenfang Longsword",
+    "first_paragraph": "A balanced battlefield blade with a smoldering fuller and leather-wrapped grip suited to mounted charges and evening duels.",
+    "outgoing_links": [
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/longswords/",
+      "https://www.boot.dev"
+    ],
+    "image_urls": [
+      "https://learnwebscraping.dev/images/catalog/longswords.svg"
+    ]
+  },
+  {
+    "url": "https://learnwebscraping.dev/practice/ecommerce/products/astral-observatory-grand-staff-fan-1106/",
+    "heading": "Astral Observatory Grand Staff",
+    "first_paragraph": "An ornate grand staff with concentric brass rings and a suspended core that hums near celestial magic.",
+    "outgoing_links": [
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/arcane-staves/",
+      "https://www.boot.dev"
+    ],
+    "image_urls": [
+      "https://learnwebscraping.dev/images/catalog/arcane-staves.svg"
+    ]
+  },
+  {
+    "url": "https://learnwebscraping.dev/practice/ecommerce/products/bastion-pike-chestplate-fan-1201/",
+    "heading": "Bastion Pike Chestplate",
+    "first_paragraph": "A practical heavy chestplate with reinforced ribs and broad pauldron hooks built for long marches and shieldwall duty.",
+    "outgoing_links": [
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/chestplates/",
+      "https://www.boot.dev"
+    ],
+    "image_urls": [
+      "https://learnwebscraping.dev/images/catalog/chestplates.svg"
+    ]
+  },
+  {
+    "url": "https://learnwebscraping.dev/practice/ecommerce/products/dawnscribe-rune-staff-fan-1104/",
+    "heading": "Dawnscribe Rune Staff",
+    "first_paragraph": "A bright support staff with engraved scripture for healers and wardens who prefer measured, efficient channeling.",
+    "outgoing_links": [
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/arcane-staves/",
+      "https://www.boot.dev"
+    ],
+    "image_urls": [
+      "https://learnwebscraping.dev/images/catalog/arcane-staves.svg"
+    ]
+  },
+  {
+    "url": "https://learnwebscraping.dev/practice/ecommerce/products/dreadmarsh-graveguard-harness-fan-1204/",
+    "heading": "Dreadmarsh Graveguard Harness",
+    "first_paragraph": "A dark harness of layered plates and chain that exhales a hint of cold bog air when struck.",
+    "outgoing_links": [
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/chestplates/",
+      "https://www.boot.dev"
+    ],
+    "image_urls": [
+      "https://learnwebscraping.dev/images/catalog/chestplates.svg"
+    ]
+  },
+  {
+    "url": "https://learnwebscraping.dev/practice/ecommerce/products/frostvein-scepter-staff-fan-1105/",
+    "heading": "Frostvein Scepter Staff",
+    "first_paragraph": "A pale staff with blue-veined crystal that lends precision to frost spells and battlefield control.",
+    "outgoing_links": [
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/arcane-staves/",
+      "https://www.boot.dev"
+    ],
+    "image_urls": [
+      "https://learnwebscraping.dev/images/catalog/arcane-staves.svg"
+    ]
+  },
+  {
+    "url": "https://learnwebscraping.dev/practice/ecommerce/products/garrison-oathblade-fan-1004/",
+    "heading": "Garrison Oathblade",
+    "first_paragraph": "A straightforward service blade with excellent balance, easy upkeep, and a broad guard suited to daily patrol work.",
+    "outgoing_links": [
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/longswords/",
+      "https://www.boot.dev"
+    ],
+    "image_urls": [
+      "https://learnwebscraping.dev/images/catalog/longswords.svg"
+    ]
+  },
+  {
+    "url": "https://learnwebscraping.dev/practice/ecommerce/products/kingshade-bastard-sword-fan-1002/",
+    "heading": "Kingshade Bastard Sword",
+    "first_paragraph": "A hand-and-a-half sword with a blackened blade and silver runes, prized for its reach, weight, and graceful finishing cuts.",
+    "outgoing_links": [
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/longswords/",
+      "https://www.boot.dev"
+    ],
+    "image_urls": [
+      "https://learnwebscraping.dev/images/catalog/longswords.svg"
+    ]
+  },
+  {
+    "url": "https://learnwebscraping.dev/practice/ecommerce/products/lionwake-tournament-cuirass-fan-1202/",
+    "heading": "Lionwake Tournament Cuirass",
+    "first_paragraph": "A gleaming tournament cuirass with elegant fluting and hidden buckles that remains dependable in live combat.",
+    "outgoing_links": [
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/chestplates/",
+      "https://www.boot.dev"
+    ],
+    "image_urls": [
+      "https://learnwebscraping.dev/images/catalog/chestplates.svg"
+    ]
+  },
+  {
+    "url": "https://learnwebscraping.dev/practice/ecommerce/products/mirelight-hex-staff-fan-1103/",
+    "heading": "Mirelight Hex Staff",
+    "first_paragraph": "A crooked hex staff shaped for curses, drains, and long midnight rituals.",
+    "outgoing_links": [
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/arcane-staves/",
+      "https://www.boot.dev"
+    ],
+    "image_urls": [
+      "https://learnwebscraping.dev/images/catalog/arcane-staves.svg"
+    ]
+  },
+  {
+    "url": "https://learnwebscraping.dev/practice/ecommerce/products/moonlit-tournament-blade-fan-1003/",
+    "heading": "Moonlit Tournament Blade",
+    "first_paragraph": "A polished blade that moves easily from the tournament lists to moonlit monster contracts.",
+    "outgoing_links": [
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/longswords/",
+      "https://www.boot.dev"
+    ],
+    "image_urls": [
+      "https://learnwebscraping.dev/images/catalog/longswords.svg"
+    ]
+  },
+  {
+    "url": "https://learnwebscraping.dev/practice/ecommerce/products/rookwatch-siege-plate-fan-1206/",
+    "heading": "Rookwatch Siege Plate",
+    "first_paragraph": "A thick siege-ready chestplate with offset layering that favors defense over ornament.",
+    "outgoing_links": [
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/chestplates/",
+      "https://www.boot.dev"
+    ],
+    "image_urls": [
+      "https://learnwebscraping.dev/images/catalog/chestplates.svg"
+    ]
+  },
+  {
+    "url": "https://learnwebscraping.dev/practice/ecommerce/products/starwell-apprentice-staff-fan-1101/",
+    "heading": "Starwell Apprentice Staff",
+    "first_paragraph": "A sturdy beginner staff with a sanded rowan shaft and modest crystal cap tuned for steady classroom casting.",
+    "outgoing_links": [
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/arcane-staves/",
+      "https://www.boot.dev"
+    ],
+    "image_urls": [
+      "https://learnwebscraping.dev/images/catalog/arcane-staves.svg"
+    ]
+  },
+  {
+    "url": "https://learnwebscraping.dev/practice/ecommerce/products/stonewarden-bulwark-plate-fan-1203/",
+    "heading": "Stonewarden Bulwark Plate",
+    "first_paragraph": "A dense chestplate etched with defensive sigils, built to turn crushing blows into manageable impacts.",
+    "outgoing_links": [
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/chestplates/",
+      "https://www.boot.dev"
+    ],
+    "image_urls": [
+      "https://learnwebscraping.dev/images/catalog/chestplates.svg"
+    ]
+  },
+  {
+    "url": "https://learnwebscraping.dev/practice/ecommerce/products/stormglass-channeling-staff-fan-1102/",
+    "heading": "Stormglass Channeling Staff",
+    "first_paragraph": "A medium-length war staff that amplifies lightning and wind magic while remaining comfortable through longer engagements.",
+    "outgoing_links": [
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/arcane-staves/",
+      "https://www.boot.dev"
+    ],
+    "image_urls": [
+      "https://learnwebscraping.dev/images/catalog/arcane-staves.svg"
+    ]
+  },
+  {
+    "url": "https://learnwebscraping.dev/practice/ecommerce/products/sunspire-relic-blade-fan-1006/",
+    "heading": "Sunspire Relic Blade",
+    "first_paragraph": "A consecrated relic sword with gold inlay and a luminous fuller that flashes warmly at dawn.",
+    "outgoing_links": [
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/longswords/",
+      "https://www.boot.dev"
+    ],
+    "image_urls": [
+      "https://learnwebscraping.dev/images/catalog/longswords.svg"
+    ]
+  },
+  {
+    "url": "https://learnwebscraping.dev/practice/ecommerce/products/sunvault-defender-plate-fan-1205/",
+    "heading": "Sunvault Defender Plate",
+    "first_paragraph": "A ceremonial breastplate with gold-lined channels that refract divine light into a halo at dawn.",
+    "outgoing_links": [
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/chestplates/",
+      "https://www.boot.dev"
+    ],
+    "image_urls": [
+      "https://learnwebscraping.dev/images/catalog/chestplates.svg"
+    ]
+  },
+  {
+    "url": "https://learnwebscraping.dev/practice/ecommerce/products/verdant-duelist-saber-fan-1005/",
+    "heading": "Verdant Duelist Saber",
+    "first_paragraph": "A slim saber-longsword hybrid with a lively tip and vine-work guard built for quick woodland skirmishes.",
+    "outgoing_links": [
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/",
+      "https://learnwebscraping.dev/practice/ecommerce/categories/longswords/",
+      "https://www.boot.dev"
+    ],
+    "image_urls": [
+      "https://learnwebscraping.dev/images/catalog/longswords.svg"
+    ]
+  }
+]
